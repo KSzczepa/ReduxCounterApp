@@ -5,7 +5,7 @@ import UserProfile from './components/UserProfile';
 import { Fragment } from 'react';
 
 import {useSelector} from 'react-redux';
-import { authActions } from './store/indexStore';
+import {authActions} from './store/auth';
 
 function App() {
 
